@@ -20,5 +20,5 @@ Feature: Library Book Management
   Scenario: Check a particular book that is borrowed
     Given Book "Mahabaratham" should be on borrowed list
     When I search for the book "Mahabaratham"
-    Then It should indicate the books is not avaialbe and borrowed.
+    Then It should indicate the books is not available and borrowed.
     
