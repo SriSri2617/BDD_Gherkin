@@ -2,7 +2,6 @@ from behave import given, when, then, step_matcher, use_step_matcher
 from behave.api.pending_step import StepNotImplementedError
 from src.temp_conversion import fahernheit_to_celsius, celsius_to_fahrenheit
 
-use_step_matcher("cfparse")
 
 # Fahrenheit to Celsius
 @given('the temperature is {temp:d} degrees Fahrenheit')
